@@ -1,6 +1,6 @@
 #!/bin/bash
 # Simple setup.sh for configuring Ubuntu 12.04 LTS EC2 instance
-# for headless setup. 
+# for headless setup.
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
@@ -58,5 +58,4 @@ sudo apt-get update
 sudo apt-get install -y nodejs
 npm --version
 node --version
-
 
