@@ -8,7 +8,7 @@
 # Node.js - Download and Install Node.js, nodeschool has free node tutorials to get you started.
 # MongoDB - Download and Install mongodb - Checkout their manual if you’re just starting.
 # Git - Get git using a package manager or download it.
-# Please MUST install setup-ted.sh for all above packages before MEAN.io stack installation
+# Please MUST install setup-ted.sh and setup-mogngodb.sh for all above packages before MEAN.io stack installation
 
 
 # PREREQUISITE PACKAGES
