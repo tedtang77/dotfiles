@@ -8,5 +8,6 @@ follows:
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/tedtang77/dotfiles.git
-./setup/setup-ted.sh
+chmod u+x ./dotfiles/setup/setup-ted.sh
+./dotfiles/setup/setup-ted.sh
 ```
