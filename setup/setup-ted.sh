@@ -12,6 +12,7 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 # Now install nodejs and npm
 sudo apt-get install -y nodejs
+sudo apt-get install -y npm
 
 
 # Install nvm: node-version manager
