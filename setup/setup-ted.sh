@@ -2,6 +2,18 @@
 # Simple setup.sh for configuring Ubuntu 12.04 LTS EC2 instance
 # for headless setup.
 
+# Install node and npm
+sudo apt-get update
+# Install a special package
+sudo apt-get install -y python-software-properties python g++ make
+# Add a new repository for apt-get to search
+sudo add-apt-repository ppa:chris-lea/node.js
+# Update apt-get’s knowledge of which packages are where
+sudo apt-get update
+# Now install nodejs and npm
+sudo apt-get install -y nodejs
+
+
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
 sudo apt-get install -y git
@@ -46,16 +58,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
-# added by Ted: install node and npm (reference: Start-up Engineer lecture 3 PDF)
-sudo apt-get update
-  # Install a special package
-sudo apt-get install -y python-software-properties python g++ make
-  # Add a new repository for apt-get to search
-sudo add-apt-repository ppa:chris-lea/node.js
-  # Update apt-get’s knowledge of which packages are where
-sudo apt-get update
-  # Now install nodejs and npm
-sudo apt-get install -y nodejs
 npm --version
 node --version
 
